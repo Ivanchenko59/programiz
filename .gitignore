@@ -1,2 +1,3 @@
 *.exe
 workspace.code-workspace
+.vscode
