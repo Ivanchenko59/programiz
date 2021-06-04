@@ -9,13 +9,13 @@ int main() {
     printf("%d - in ASCII\n", ch);
 
     if (ch >= 'A' && ch <= 'Z')
-        printf("%c - is alphabet uppercase");
+        printf("%c - is alphabet uppercase", ch);
 
     else if (ch >= 'a' && ch <= 'z')
-        printf("%c - is alphabet lowercase");
+        printf("%c - is alphabet lowercase", ch);
 
     else
-        printf("%c - is not an alphabet character");
+        printf("%c - is not an alphabet character", ch);
 
     return 0; 
 }
